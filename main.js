@@ -11,15 +11,12 @@ function updateView(view) {
 
 /*Controls*/
 function updateIframe() {
-  iframe.src = document.getElementById("iframeURL").value;
 
   phone.style.width = document.getElementById("iframeWidth").value + "px";
   phone.style.height = document.getElementById("iframeHeight").value + "px";
 
   /*Idea by /u/aerosole*/
-  document.getElementById("wrapper").style.perspective = (
-    document.getElementById("iframePerspective").checked ? "1000px" : "none"
-  );
+  document.getElementById("wrapper").style.perspective = "1000px" ;
 }
 updateIframe();
 

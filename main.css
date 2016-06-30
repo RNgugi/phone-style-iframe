@@ -42,7 +42,6 @@
     top: 20px;
     left: 20px;
     font-size: 0.9em;
-    color: #333;
   }
   
   #controls div {
@@ -63,19 +62,9 @@
   }
   
   #views button {
-    width: 198px;
-    border: 1px solid #bbb;
-    background-color: #fff;
-    height: 40px;
-    margin: 10px 0;
-    color: #666;
-    transition: all 0.2s;
+    margin-bottom: 20px;
   }
   
-  #views button:hover {
-    color: #444;
-    background-color: #eee;
-  }
   
   @media (max-width:900px) {
     #wrapper {
